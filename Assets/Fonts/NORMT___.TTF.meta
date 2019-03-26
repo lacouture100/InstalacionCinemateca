@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0729d2ec77677cf43a8139899e98e63e
+timeCreated: 1507749538
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Normafixed Tryout
+  fontNames:
+  - Normafixed Tryout
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

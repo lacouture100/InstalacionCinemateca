@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: e96ec8d2eda164e4cb06540ae0690dbc
+timeCreated: 1508279475
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Code Light
+  fontNames:
+  - Code Light
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: e6c183a1a17beaa42846013b334307f1
+timeCreated: 1507698924
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: HYPE
+  fontNames:
+  - HYPE
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e4c45e533bffeb74aba65121aae49c7e, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
