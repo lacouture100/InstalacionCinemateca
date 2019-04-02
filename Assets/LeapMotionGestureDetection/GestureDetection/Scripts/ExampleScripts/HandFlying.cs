@@ -9,6 +9,7 @@ public class HandFlying : MonoBehaviour
     public GameObject mMovementObject;
 
     public float mHeightSpeed;
+    public float Ymin,Ymax;
     public float mSpeedMultiplier;
 
     Vector3 handStartPos;
@@ -16,6 +17,8 @@ public class HandFlying : MonoBehaviour
     bool handPositionSet = false;
     bool startPosSet = false;
     bool paused = false;
+
+
 
     Vector3 GetHandPosition(EHand a_Hand)
     {
@@ -70,6 +73,12 @@ public class HandFlying : MonoBehaviour
             mMovementObject.transform.position += mMovementObject.transform.forward * forward * speedTranslate;
             mMovementObject.transform.position += mMovementObject.transform.right * right * speedTranslate;
             mMovementObject.transform.position += mMovementObject.transform.up * up * speedTranslate;
+            Vector3 currentObjectPosition  = mMovementObject.transform.position;
+            currentObjectPosition.y =
+                        Mathf.Clamp( mMovementObject.transform.position.y, Ymin, Ymax);
+            mMovementObject.transform.position = currentObjectPosition;
+
+
         }
     }
 }

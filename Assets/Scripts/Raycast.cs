@@ -7,9 +7,17 @@ using UnityEngine.Video;
 public class Raycast : MonoBehaviour
 {
     public float maxDistance =200;
-    public Camera cam;
+    private Camera cam;
 
     // Update is called once per frame
+
+    void  Awake ()
+  	{
+  		// if no camera referenced, grab the main camera
+  		if (!cam)
+  			cam = Camera.main;
+  	}
+
     void FixedUpdate()
     {
       // Create a ray from the transform position along the transform's z-axis
@@ -54,5 +62,5 @@ public class Raycast : MonoBehaviour
 
 
         }
-    
+
 }
